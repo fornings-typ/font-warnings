@@ -1,5 +1,5 @@
 #import "/lib.typ":*
-
+#set page(width: auto, height: auto)
 #let my-namespace = "fwrn"
 
 #let warning = warning.with(namespace: my-namespace, prefix: "[font-warnings] ")
