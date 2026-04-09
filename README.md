@@ -61,7 +61,7 @@ Use `warning.with(...)` to create a package-local warning function with fixed na
 
 ### `disable-warnings(namespace)`
 
-Returns a show rule function that disables warnings for the given namespace.
+Returns a function to use in a show rule, that disables warnings for the given namespace.
 
 - `namespace` (`str`): Must be at most 4 characters.
 - returns: `function`
@@ -74,7 +74,7 @@ Usage:
 
 ### `enable-warnings(namespace)`
 
-Returns a show rule function that enables warnings for the given namespace.
+Returns a function to use in a show rule, that enables warnings for the given namespace.
 
 - `namespace` (`str`): Must be at most 4 characters.
 - returns: `function`
