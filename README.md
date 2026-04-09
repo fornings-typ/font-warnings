@@ -116,3 +116,6 @@ Usage:
 ## License
 
 MIT
+
+## Contribution
+Some ideas also by `OrangeX4`.
